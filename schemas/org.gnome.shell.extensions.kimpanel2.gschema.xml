@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <schemalist>
-  <schema path="/org/gnome/shell/extensions/kimpanel/" id="org.gnome.shell.extensions.kimpanel">
+  <schema path="/org/gnome/shell/extensions/kimpanel2/" id="org.gnome.shell.extensions.kimpanel2">
     <key type="b" name="vertical">
         <default>false</default>
         <summary>vertical candidate text</summary>

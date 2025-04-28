@@ -1,11 +1,11 @@
 {
-"extension-id": "kimpanel",
+"extension-id": "kimpanel2",
 "shell-version": ["48"],
-"uuid": "kimpanel@kde.org",
-"name": "Input Method Panel",
-"description": "Input Method Panel using KDE's kimpanel protocol for Gnome-Shell", 
-"url": "https://github.com/wengxt/gnome-shell-extension-kimpanel",
+"uuid": "kimpanel2@kde.org",
+"name": "Hidden input method panel",
+"description": "Hidden input method panel using KDE's kimpanel protocol for Gnome-Shell", 
+"url": "https://github.com/yueduz/gnome-shell-extension-kimpanel2",
 "locale": "@localedir@",
-"gettext-domain": "gnome-shell-extensions-kimpanel",
-"settings-schema": "org.gnome.shell.extensions.kimpanel"
+"gettext-domain": "gnome-shell-extensions-kimpanel2",
+"settings-schema": "org.gnome.shell.extensions.kimpanel2"
 }

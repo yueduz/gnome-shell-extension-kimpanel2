@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 定义 dconf 路径
-dconf_path="/org/gnome/shell/extensions/kimpanel/panel-hide"
+dconf_path="/org/gnome/shell/extensions/kimpanel2/panel-hide"
 
 # 读取当前值
 current_value=$(dconf read "$dconf_path")

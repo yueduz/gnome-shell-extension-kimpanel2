@@ -1,7 +1,7 @@
 #!/bin/sh
 
 BASEDIR="." # root of translatable sources
-PROJECT="gnome-shell-extensions-kimpanel" # project name
+PROJECT="gnome-shell-extensions-kimpanel2" # project name
 BUGADDR="fcitx-dev@googlegroups.com" # MSGID-Bugs
 WDIR="`pwd`" # working dir
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(kimpanel-for-gnome-shell NONE)
+project(kimpanel2-for-gnome-shell NONE)
 
 find_package(Gettext REQUIRED)
 find_program(ZIP zip)
@@ -15,7 +15,7 @@ endif (NOT UNZIP)
 
 add_subdirectory(po)
 
-set(uuid "kimpanel@kde.org")
+set(uuid "kimpanel2@kde.org")
 set(datadir "${CMAKE_INSTALL_PREFIX}/share")
 set(topextensiondir "${datadir}/gnome-shell/extensions")
 set(extensiondir "${topextensiondir}/${uuid}")
@@ -36,7 +36,7 @@ set(extension_FILES
 )
 
 set(schema_FILES
-    schemas/org.gnome.shell.extensions.kimpanel.gschema.xml
+    schemas/org.gnome.shell.extensions.kimpanel2.gschema.xml
     schemas/gschemas.compiled
     )
 
