@@ -29,3 +29,11 @@ msgstr "重新加载配置"
 #: indicator.js:41
 msgid "Settings"
 msgstr "设置"
+
+#: prefs.js:59
+msgid "Tip: You can find the automatic switching script in the  plugin website"
+msgstr "提示：您可以在插件网站找到自动切换脚本"
+
+#: prefs.js:39
+msgid "hide  candidate text panel"
+msgstr "隐藏候选栏"

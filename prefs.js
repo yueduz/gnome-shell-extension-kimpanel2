@@ -52,6 +52,17 @@ class KimpanelPrefsWidget extends Adw.PreferencesPage {
         this._settings.bind('font', button, 'font', Gio.SettingsBindFlags.DEFAULT);
         row.add_suffix(button);
         miscGroup.add(row);
+
+  
+        // 添加提示文本
+        let hintLabel = new Gtk.Label({
+            label: _('Tip: You can find the automatic switching script in the  plugin website'),
+            wrap: true,
+            xalign: 0,
+            margin_top: 14,
+            css_classes: ['dim-label']
+        });
+        miscGroup.add(hintLabel);
     }
 }
 

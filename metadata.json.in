@@ -1,6 +1,6 @@
 {
 "extension-id": "kimpanel2",
-"shell-version": ["48"],
+"shell-version": ["48","49"],
 "uuid": "kimpanel2@kde.org",
 "name": "Hidden input method panel",
 "description": "Hidden input method panel using KDE's kimpanel protocol for Gnome-Shell", 

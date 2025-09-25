@@ -1,5 +1,5 @@
 set(POT_FILE
-    gnome-shell-extensions-kimpanel.pot
+    gnome-shell-extensions-kimpanel2.pot
 )
 
 file(GLOB PO_FILES

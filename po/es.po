@@ -29,3 +29,11 @@ msgstr "Recargar configuración"
 #: indicator.js:41
 msgid "Settings"
 msgstr "Configuración"
+
+#: prefs.js:59
+msgid "Tip: You can find the automatic switching script in the  plugin website"
+msgstr ""
+
+#: prefs.js:39
+msgid "hide  candidate text panel"
+msgstr ""

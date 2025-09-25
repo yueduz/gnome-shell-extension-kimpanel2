@@ -28,3 +28,11 @@ msgstr "구성 다시읽기"
 #: indicator.js:41
 msgid "Settings"
 msgstr "설정"
+
+#: prefs.js:59
+msgid "Tip: You can find the automatic switching script in the  plugin website"
+msgstr ""
+
+#: prefs.js:39
+msgid "hide  candidate text panel"
+msgstr ""

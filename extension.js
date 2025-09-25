@@ -95,6 +95,7 @@ class Kimpanel extends GObject.Object {
         this.watch_id = 0;
         this.indicator = new KimIndicator({kimpanel : this});
         this.inputpanel = new InputPanel({kimpanel : this});
+        this.inputpanel.setPanelHide(this.getPanelHide());
         this.menu =
             new KimMenu({sourceActor : this.indicator, kimpanel : this});
 
@@ -353,10 +354,10 @@ class Kimpanel extends GObject.Object {
 export default class KimpanelExtension extends Extension {
     constructor(...args) {
         super(...args);
-        this._settings = this.getSettings();
     }
-
+    
     enable() {
+        this._settings = this.getSettings();
         if (!kimpanel) {
             kimpanel = new Kimpanel(this._settings);
         }
@@ -365,6 +366,7 @@ export default class KimpanelExtension extends Extension {
     disable() {
         kimpanel.destroy();
         kimpanel = null;
+        this._settings = null;
     }
 }
 // vim: set ts=4 sw=4 sts=4 expandtab
